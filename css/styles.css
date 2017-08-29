@@ -1,3 +1,34 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0; }
+
 body {
-  background: #1A1A1A;
-  color: #FEFEFE; }
+  background: #FEFEFE;
+  font-size: 19px;
+  color: #333;
+  line-height: 1.5;
+  font-family: 'Helvetica Neue', Arial, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+#site__header {
+  background: #222;
+  height: 80px; }
+
+#site__footer {
+  background: #222;
+  height: 80px; }
+
+#site__main {
+  width: 1200px;
+  margin: 50px auto; }
+
+.article .article__header {
+  text-align: center; }
+  .article .article__header h1 {
+    font-size: 60px;
+    margin: 0 0 15px; }

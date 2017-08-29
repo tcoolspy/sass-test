@@ -1,6 +1,64 @@
-$primary-color: #1A1A1A;
+$primary-color: #1CE;
+
+// RESET **********************
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll;
+    margin:0;
+    padding: 0;
+}
+
+// Base styles
 
 body {
-    background: $primary-color;
-    color: #FEFEFE;
+    background: #FEFEFE;
+    font-size: 19px;
+    color: #333;
+    line-height: 1.5;
+    font-family: 'Helvetica Neue', Arial, Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+// Header
+#site__header {
+    background: #222;
+    height: 80px;
+}
+
+// Footer
+#site__footer {
+    background: #222;
+    height: 80px;
+}
+
+// Main content
+#site__main {
+    width: 1200px;
+    margin:50px auto;
+}
+
+.article {
+    // header
+    .article__header {
+        text-align: center;
+
+        h1 {
+            font-size: 60px;
+            margin: 0 0 15px;
+        }
+    }
+
+    // featured image
+    .article__image {
+
+    }
+
+    // article footer
+    .article__footer {
+
+    }    
 }
